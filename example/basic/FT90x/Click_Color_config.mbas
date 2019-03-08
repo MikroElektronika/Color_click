@@ -1,0 +1,8 @@
+module Click_Color_config
+
+include Click_Color_types
+
+const
+    _COLOR_I2C_CFG as uint32_t[2] = (_I2CM_SPEED_MODE_STANDARD, _I2CM_SWAP_DISABLE)
+    
+end.
